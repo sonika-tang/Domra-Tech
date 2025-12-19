@@ -13,7 +13,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'http://localhost:3000/api',
+        url: 'https://domra-tech.onrender.com',
         description: 'Local development server',
       },
     ],
