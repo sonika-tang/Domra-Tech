@@ -31,7 +31,7 @@ app.use(cors({
   allowedHeaders: ['Content-Type', 'Authorization', 'Accept'],
   credentials: true
 }));
-app.use(cors({ origin: "*" }));
+// app.use(cors({ origin: "*" }));
 app.use(session({ secret: 'some_secret_key', resave: false, saveUninitialized: false }));
 app.use(passport.initialize());
 app.use(passport.session());
